@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pure CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main font 'Josefin Slab', serif -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+    <!-- Additional font 'Chewy', cursive; -->
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="https://image.flaticon.com/icons/svg/13/13706.svg" alt="HTML Coding icon">
+        </div>
+        <a href="#"><b>Info</b></a>
+        <a href="#"><b>About us</b></a>
+        <a href="#"><b>Jobs</b></a>
+        <a href="#"><b>Contact</b></a>
+        <a href="#"><b>Blog</b></a>
+    </div>
+
+    <!-- Image header -->
+    <div class="header">
+        <div class="headerOverlay"></div>
+        <div class="headerConent">
+            <h1>Discover what is out there</h1>
+            <form class="searchField" action="#">
+                <input type="text" placeholder="Where do you want to go?" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>           
+        </div>
+    </div>
+
+    <!-- Mega menu -->
+    <div class="mainNavbar">
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <div class="navbarDropdownContainer">
+            <button class="dropdownBtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="navbarDropdownContent">
+                <div class="dropRow">
+                    <div class="dropColumn">
+                        <h3>Category 1</h3>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <a href="#">Lorem ipsum dolor</a>
+                    </div>
+                    <div class="dropColumn">
+                        <h3>Category 2</h3>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <a href="#">Lorem ipsum dolor</a>
+                    </div>
+                    <div class="dropColumn">
+                        <h3>Category 3</h3>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <a href="#">Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cardsContainer">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit!</h1>
+        <p> Saepe officiis dolorem recusandae.</p>
+        <div class="cardRow">
+            <div class="cardColumn">
+                <img src="https://image.flaticon.com/icons/svg/1175/1175017.svg" alt="plane">
+                <h2>Travel</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non recusandae molestiae esse quaerat, tenetur maiores at eveniet dicta!</p>
+            </div>
+            <div class="cardColumn">
+                <img src="https://image.flaticon.com/icons/svg/1695/1695138.svg" alt="distance">
+                <h2>Distance</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, fugit iste praesentium ex mollitia illo?</p>
+            </div>
+            <div class="cardColumn">
+                <img src="https://image.flaticon.com/icons/svg/654/654031.svg" alt="business">
+                <h2>Bussines</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laudantium, eveniet quia provident temporibus expedita distinctio deleniti!</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <hr class="line">
+
+    <div class="articleHolder">
+        <div class="articleContent">
+            <h1>Fun</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Sed, ad magnam. Reiciendis nostrum perferendis modi repudiandae!</p>
+            <h1>Travel</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas unde totam provident harum blanditiis!</p>
+            <h1>Adventure</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="articleContent">
+            <img src="https://image.flaticon.com/icons/svg/854/854878.svg" alt="travel">
+        </div>
+    </div>
+
+    <div class="articleHolder">
+        <div class="articleContent">
+            <img src="https://image.flaticon.com/icons/svg/428/428891.svg" alt="airplane">
+        </div>
+        <div class="articleContent">
+            <h1>Come on let's explore!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cupiditate ipsam, molestiae culpa id possimus?</p>
+            <ul>
+                <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet.</li>
+                <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit.</li>
+                <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, saepe.</li>
+            </ul>
+
+            <div class="articleBtn">
+                <a href="#">Subscribe now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing cards -->
+    <div class="pricing">
+        <h1>Pricing for everyone!</h1>
+        <p>The pricing packeges are supported by a 30-day money back!</p>
+    </div>
+
+    <div class="pricingContainer">
+        <ul class="pricingPlan">
+            <li class="pricingTitle"><b>BASIC</b>
+            <p>$25 per month</p></li>
+            <li>10Gb Storage</li>
+            <li>Free Dashboards</li>
+            <li>API access</li>
+            <li><a href="#">FREE 30-DAY TRIAL</a></li>
+        </ul>
+
+    <ul class="pricingPlan">
+        <li class="pricingTitle"><b>STANDARD</b>
+        <p>$99 per month</p></li>
+        <li><b>Basic features</b></li>
+        <li>50Gb Storage</li>
+        <li>Screen Sharing</li>
+        <li>Full reports</li>
+        <li><a href="#">FREE 30-DAY TRIAL</a></li>
+    </ul>
+
+    <ul class="pricingPlan">
+        <li class="pricingTitle"><b>PRO</b>
+        <p>$199 per month</p></li>
+        <li><b>Basic and standard features</b></li>
+        <li>100Gb Storage</li>
+        <li>Dedicated Manager</li>
+        <li>Priority Support</li>
+        <li><a href="#">FREE 30-DAY TRIAL</a></li>
+    </ul>
+    </div>
+
+    <!-- form -->
+        <div class="theForm">
+            <form>
+                <input type="text" name="field1" placeholder="Your Name...">
+                <input type="email" name="field2" placeholder="Your Email...">
+                <textarea name="field3"  placeholder="About yourself..."></textarea> 
+                <input type="submit" value="Apply">
+            </form>
+        </div>
+
+    
+    
+</body>
+</html>
